@@ -28,7 +28,7 @@ CLASS zcl_11_runner IMPLEMENTATION.
 
     DATA: exc TYPE REF TO zcx_kast_no_check.
 
-    out->write( 'Hello 1' ).
+    out->write( 'Hello 22' ).
 
     TRY.
         read_file( file_name = '1' ).
